@@ -5,9 +5,10 @@ export const profile = {
   tagline: 'Construyo productos web de punta a punta y los llevo a producción en la nube.',
   location: 'Santiago, Chile',
   education: 'Ingeniería en Informática — DuocUC Alameda (6° semestre)',
-  company: 'Fundador de FaroStudios',
+  company: 'Cofundador de FaroStudios',
   github: 'https://github.com/CristobalR1102',
   linkedin: 'https://www.linkedin.com/in/calcavil2005/',
+  farostudios: 'https://farostudios.cl',
   email: 'contacto@farostudios.cl',
 }
 
@@ -109,7 +110,7 @@ export const academicProjects = [
 export const experience = [
   {
     period: '2023 — Presente',
-    title: 'Fundador',
+    title: 'Cofundador',
     org: 'FaroStudios',
     description:
       'Desarrollo web freelance para negocios locales en Santiago, Chile. Gestión de ciclo completo: diseño de producto, desarrollo, despliegue en la nube y soporte post-entrega.',

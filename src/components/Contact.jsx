@@ -37,6 +37,14 @@ export default function Contact() {
           >
             LinkedIn
           </a>
+          <a
+            href={profile.farostudios}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm text-slate-200 hover:border-accent/50 hover:text-accent transition-colors"
+          >
+            FaroStudios
+          </a>
         </div>
       </div>
     </section>

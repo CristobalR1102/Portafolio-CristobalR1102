@@ -1,3 +1,5 @@
+import { profile } from '../data/portfolio'
+
 export default function About() {
   return (
     <section id="about" className="py-24 border-t border-border">
@@ -9,9 +11,17 @@ export default function About() {
         <div className="md:col-span-2 text-slate-300 leading-relaxed space-y-4 text-base">
           <p>
             Soy estudiante de Ingeniería en Informática en <span className="text-slate-100">DuocUC Alameda</span>,
-            cursando 6° semestre, y fundador de <span className="text-slate-100">FaroStudios</span>, donde desde
-            2023 desarrollo soluciones web para negocios locales en Santiago de principio a fin: diseño,
-            desarrollo, despliegue y soporte.
+            cursando 6° semestre, y cofundador de{' '}
+            <a
+              href={profile.farostudios}
+              target="_blank"
+              rel="noreferrer"
+              className="text-slate-100 hover:text-accent transition-colors"
+            >
+              FaroStudios
+            </a>
+            , donde desde 2023 desarrollo soluciones web para negocios locales en Santiago de principio a fin:
+            diseño, desarrollo, despliegue y soporte.
           </p>
           <p>
             Me muevo cómodo tanto en el frontend con React y TailwindCSS como en el backend con Node.js y

@@ -16,8 +16,17 @@ export default function Hero() {
         </h1>
 
         <p className="mt-5 text-lg sm:text-xl text-slate-300 max-w-2xl">
-          {profile.role}, fundador de <span className="text-slate-100 font-medium">FaroStudios</span>. Diseño,
-          desarrollo y despliego productos web reales para negocios, desde el frontend hasta la infraestructura en la nube.
+          {profile.role}, cofundador de{' '}
+          <a
+            href={profile.farostudios}
+            target="_blank"
+            rel="noreferrer"
+            className="text-slate-100 font-medium hover:text-accent transition-colors"
+          >
+            FaroStudios
+          </a>
+          . Diseño, desarrollo y despliego productos web reales para negocios, desde el frontend hasta la
+          infraestructura en la nube.
         </p>
 
         <p className="mt-3 text-sm font-mono text-slate-500 max-w-2xl">
