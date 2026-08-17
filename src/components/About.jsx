@@ -20,7 +20,7 @@ export default function About() {
             >
               FaroStudios
             </a>
-            , donde desde 2023 desarrollo soluciones web para negocios locales en Santiago de principio a fin:
+            , donde desde 2026 desarrollo soluciones web para negocios locales en Santiago de principio a fin:
             diseño, desarrollo, despliegue y soporte.
           </p>
           <p>

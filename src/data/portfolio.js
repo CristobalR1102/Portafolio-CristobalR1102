@@ -109,16 +109,16 @@ export const academicProjects = [
 
 export const experience = [
   {
-    period: '2023 — Presente',
+    period: '2024 — Presente',
+    title: 'Ingeniería en Informática',
+    org: 'DuocUC Alameda',
+    description: 'Actualmente cursando 6° semestre, profundizando en arquitectura de software, cloud y microservicios.',
+  },
+  {
+    period: '2026 — Presente',
     title: 'Cofundador',
     org: 'FaroStudios',
     description:
       'Desarrollo web freelance para negocios locales en Santiago, Chile. Gestión de ciclo completo: diseño de producto, desarrollo, despliegue en la nube y soporte post-entrega.',
-  },
-  {
-    period: '2023 — Presente',
-    title: 'Ingeniería en Informática',
-    org: 'DuocUC Alameda',
-    description: 'Actualmente cursando 6° semestre, profundizando en arquitectura de software, cloud y microservicios.',
   },
 ]
