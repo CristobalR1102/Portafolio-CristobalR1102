@@ -12,6 +12,28 @@ export const profile = {
   email: 'contacto@farostudios.cl',
 }
 
+export const services = [
+  {
+    title: 'Web de presentación',
+    description:
+      'Sitio institucional para que tu negocio tenga presencia online: quiénes son, qué ofrecen, ubicación y botón de contacto directo por WhatsApp.',
+    includes: ['Diseño a medida y responsive', 'Dominio y hosting configurados', 'Botón de contacto por WhatsApp', 'Optimizado para carga rápida'],
+  },
+  {
+    title: 'Tienda / Pedidos online',
+    description:
+      'Como Bazzi Chicken: catálogo o menú dinámico, carrito de compras, checkout por WhatsApp y panel admin para que tú mismo gestiones productos e imágenes.',
+    includes: ['Catálogo o menú dinámico', 'Checkout integrado con WhatsApp', 'Panel admin con CRUD', 'Lógica de horario abierto/cerrado'],
+    featured: true,
+  },
+  {
+    title: 'Automatización con IA',
+    description:
+      'Bot de atención 24/7 por WhatsApp con IA: responde consultas, toma pedidos y atiende clientes fuera de horario, sin que tengas que estar pendiente todo el día.',
+    includes: ['Bot conectado a tu número de WhatsApp', 'Respuestas con IA (OpenAI)', 'Contexto y datos guardados por negocio', 'Disponible 24/7'],
+  },
+]
+
 export const skillGroups = [
   {
     title: 'Frontend',
