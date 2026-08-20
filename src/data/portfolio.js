@@ -9,7 +9,7 @@ export const profile = {
   github: 'https://github.com/CristobalR1102',
   linkedin: 'https://www.linkedin.com/in/calcavil2005/',
   farostudios: 'https://farostudios.cl',
-  email: 'contacto@farostudios.cl',
+  email: 'cristobalrenato.2005@gmail.com',
 }
 
 export const services = [
