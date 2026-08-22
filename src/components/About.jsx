@@ -25,12 +25,8 @@ export default function About() {
           </p>
           <p>
             Me muevo cómodo tanto en el frontend con React y TailwindCSS como en el backend con Node.js y
-            Spring Boot, y disfruto especialmente llevar esos proyectos a infraestructura real: contenedores con
-            Docker, orquestación con Kubernetes en AWS EKS, y pipelines de CI/CD automatizados con GitHub Actions.
-          </p>
-          <p>
-            Últimamente he combinado desarrollo web con integraciones de IA, como bots de atención por WhatsApp
-            con la API de OpenAI, para automatizar procesos de negocios reales.
+            Express, y disfruto especialmente llevar esos proyectos a producción real: bases de datos con
+            Supabase, despliegue en Vercel y Railway, y automatización con GitHub Actions.
           </p>
         </div>
       </div>

@@ -25,8 +25,8 @@ export default function Hero() {
           >
             FaroStudios
           </a>
-          . Diseño, desarrollo y despliego productos web reales para negocios, desde el frontend hasta la
-          infraestructura en la nube.
+          . Diseño, desarrollo y despliego páginas web reales para negocios, desde el frontend hasta la
+          puesta en producción.
         </p>
 
         <p className="mt-3 text-sm font-mono text-slate-500 max-w-2xl">

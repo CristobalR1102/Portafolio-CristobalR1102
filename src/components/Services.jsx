@@ -11,7 +11,7 @@ export default function Services() {
           necesita hoy.
         </p>
 
-        <div className="mt-12 grid md:grid-cols-3 gap-6">
+        <div className="mt-12 grid md:grid-cols-2 gap-6 max-w-3xl">
           {services.map((service) => (
             <div
               key={service.title}
