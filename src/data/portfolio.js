@@ -68,6 +68,23 @@ export const projects = [
   },
 ]
 
+export const demos = [
+  {
+    title: 'Fogón Callejero',
+    subtitle: 'Demo — comida rápida con carrito y checkout por WhatsApp',
+    url: 'https://cristobal1102demo1.netlify.app',
+    description:
+      'Demo de una web de pedidos para un local de comida rápida (negocio ficticio, todo el contenido es inventado): carta organizada por categorías, carrito de compras y pedido final que arma el mensaje y redirige a WhatsApp.',
+    stack: ['React', 'Vite', 'TailwindCSS', 'Netlify'],
+    highlights: [
+      'Carta organizada por categorías',
+      'Carrito de compras con resumen de pedido',
+      'Checkout que arma el mensaje y redirige a WhatsApp',
+      'Sección de ubicación, horarios y reseñas',
+    ],
+  },
+]
+
 export const experience = [
   {
     period: '2024 — Presente',
