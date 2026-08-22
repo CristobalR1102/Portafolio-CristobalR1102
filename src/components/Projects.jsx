@@ -1,4 +1,4 @@
-import { projects, academicProjects } from '../data/portfolio'
+import { projects } from '../data/portfolio'
 
 function ProjectCard({ project }) {
   return (
@@ -42,27 +42,6 @@ function ProjectCard({ project }) {
   )
 }
 
-function AcademicCard({ project }) {
-  return (
-    <article className="rounded-2xl border border-border bg-panel/30 p-6">
-      <h4 className="font-semibold text-slate-100">{project.title}</h4>
-      <p className="mt-2 text-sm text-slate-400 leading-relaxed">{project.description}</p>
-      <div className="mt-4 flex flex-wrap gap-2">
-        {project.stack.map((s) => (
-          <span key={s} className="text-xs font-mono text-slate-500 bg-white/5 rounded-md px-2 py-1">
-            {s}
-          </span>
-        ))}
-      </div>
-      {project.patterns.length > 0 && (
-        <p className="mt-3 text-xs text-slate-500">
-          Patrones: <span className="text-slate-400">{project.patterns.join(', ')}</span>
-        </p>
-      )}
-    </article>
-  )
-}
-
 export default function Projects() {
   return (
     <section id="proyectos" className="py-24 border-t border-border">
@@ -70,23 +49,10 @@ export default function Projects() {
         <p className="section-heading">Proyectos</p>
         <h2 className="mt-3 text-3xl font-bold text-slate-50">Cosas que he construido</h2>
 
-        <div className="mt-12 grid md:grid-cols-2 gap-6">
-          {projects.slice(0, 2).map((p) => (
+        <div className={`mt-12 grid gap-6 ${projects.length > 1 ? 'md:grid-cols-2' : 'max-w-xl'}`}>
+          {projects.map((p) => (
             <ProjectCard key={p.title} project={p} />
           ))}
-        </div>
-
-        <div className="mt-6">
-          <ProjectCard project={projects[2]} />
-        </div>
-
-        <div className="mt-16">
-          <p className="text-sm font-mono uppercase tracking-[0.25em] text-slate-500">Proyectos académicos</p>
-          <div className="mt-6 grid md:grid-cols-2 gap-5">
-            {academicProjects.map((p) => (
-              <AcademicCard key={p.title} project={p} />
-            ))}
-          </div>
         </div>
       </div>
     </section>

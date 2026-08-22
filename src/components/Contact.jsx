@@ -10,8 +10,8 @@ export default function Contact() {
           ¿Tienes un proyecto en mente?
         </h2>
         <p className="mt-4 text-slate-400 max-w-xl mx-auto">
-          Ya sea una app web, un bot con IA o infraestructura en la nube para tu negocio, hablemos y lo llevamos
-          a producción.
+          Ya sea una web de presentación o una tienda online para tu negocio, hablemos y lo llevamos a
+          producción.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
