@@ -31,7 +31,7 @@ export const services = [
 export const skillGroups = [
   {
     title: 'Frontend',
-    skills: ['React', 'Vite', 'TailwindCSS', 'JavaScript'],
+    skills: ['React', 'Vite', 'TailwindCSS', 'JavaScript', 'HTML5', 'CSS3'],
   },
   {
     title: 'Backend',
@@ -43,7 +43,7 @@ export const skillGroups = [
   },
   {
     title: 'Deploy & DevOps',
-    skills: ['Vercel', 'Railway', 'Docker', 'GitHub Actions', 'Nginx'],
+    skills: ['Vercel', 'Railway', 'Docker', 'GitHub Actions', 'Nginx', 'cPanel'],
   },
   {
     title: 'Herramientas',
@@ -64,6 +64,20 @@ export const projects = [
       'Checkout directo por WhatsApp',
       'CRUD de productos con imágenes',
       'Lógica de negocio abierto/cerrado en tiempo real',
+    ],
+  },
+  {
+    title: 'Jardín de Rebeca',
+    subtitle: 'Sitio y panel admin para bar-restaurante',
+    url: 'https://jardinderebeca.cl',
+    description:
+      'Sitio completo para un bar-restaurante real, construido desde cero en HTML, CSS y JavaScript puro (sin frameworks ni build step): carta digital de 157 productos en 24 categorías, curación de más de 270 fotos del local, y un panel de administración con Supabase para que la clienta gestione fotos y precios sin depender de mí.',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Supabase', 'Vercel', 'cPanel'],
+    highlights: [
+      'Carta digital de 157 productos en 24 categorías con HTML5 semántico',
+      'Panel admin con Supabase: la clienta sube fotos y edita precios sin código',
+      'Arquitectura resiliente: el sitio público sigue funcionando aunque falle el backend',
+      'Deploy dual: Vercel (CI/CD) y hosting compartido tradicional vía cPanel',
     ],
   },
 ]
