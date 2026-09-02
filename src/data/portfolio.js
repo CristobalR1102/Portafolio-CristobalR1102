@@ -1,3 +1,7 @@
+import bazziChickenShot from '../assets/shots/bazzichicken.png'
+import jardinDeRebecaShot from '../assets/shots/jardinderebeca.png'
+import fogonCallejeroShot from '../assets/shots/fogoncallejero.png'
+
 export const profile = {
   name: 'Cristóbal Alcavil',
   fullName: 'Cristóbal Renato Alcavil Avendaño',
@@ -8,6 +12,7 @@ export const profile = {
   company: 'Cofundador de FaroStudios',
   github: 'https://github.com/CristobalR1102',
   linkedin: 'https://www.linkedin.com/in/calcavil2005/',
+  instagram: 'https://www.instagram.com/developweb.cl/',
   farostudios: 'https://farostudios.cl',
   email: 'cristobalrenato.2005@gmail.com',
 }
@@ -56,6 +61,7 @@ export const projects = [
     title: 'Bazzi Chicken',
     subtitle: 'App de pedidos online para restaurante',
     url: 'https://bazzichicken.cl',
+    image: bazziChickenShot,
     description:
       'Plataforma de pedidos para un restaurante real: menú dinámico, carrito de compras, checkout integrado con WhatsApp, panel admin con CRUD de productos e imágenes, y lógica de apertura/cierre automática según horario.',
     stack: ['React', 'Vite', 'TailwindCSS', 'Supabase', 'Vercel'],
@@ -70,6 +76,7 @@ export const projects = [
     title: 'Jardín de Rebeca',
     subtitle: 'Sitio y panel admin para bar-restaurante',
     url: 'https://jardinderebeca.cl',
+    image: jardinDeRebecaShot,
     description:
       'Sitio completo para un bar-restaurante real, construido desde cero en HTML, CSS y JavaScript puro (sin frameworks ni build step): carta digital de 157 productos en 24 categorías, curación de más de 270 fotos del local, y un panel de administración con Supabase para que la clienta gestione fotos y precios sin depender de mí.',
     stack: ['HTML5', 'CSS3', 'JavaScript', 'Supabase', 'Vercel', 'cPanel'],
@@ -87,6 +94,7 @@ export const demos = [
     title: 'Fogón Callejero',
     subtitle: 'Demo — comida rápida con carrito y checkout por WhatsApp',
     url: 'https://cristobal1102demo1.netlify.app',
+    image: fogonCallejeroShot,
     description:
       'Demo de una web de pedidos para un local de comida rápida (negocio ficticio, todo el contenido es inventado): carta organizada por categorías, carrito de compras y pedido final que arma el mensaje y redirige a WhatsApp.',
     stack: ['React', 'Vite', 'TailwindCSS', 'Netlify'],

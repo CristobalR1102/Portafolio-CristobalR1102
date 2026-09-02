@@ -5,11 +5,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#0a0e17',
-        panel: '#111826',
-        border: '#1f2937',
-        accent: '#22d3ee',
-        accent2: '#818cf8',
+        ink: '#0a0a0a',
+        panel: '#151515',
+        border: '#292929',
+        accent: '#ef4444',
+        accent2: '#fca5a5',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
