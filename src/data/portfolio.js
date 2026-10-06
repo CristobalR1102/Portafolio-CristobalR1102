@@ -1,6 +1,7 @@
 import bazziChickenShot from '../assets/shots/bazzichicken.png'
 import jardinDeRebecaShot from '../assets/shots/jardinderebeca.png'
 import fogonCallejeroShot from '../assets/shots/fogoncallejero.png'
+import cachapasMaracayShot from '../assets/shots/cachapasmaracay.png'
 
 export const profile = {
   name: 'Cristóbal Alcavil',
@@ -36,7 +37,7 @@ export const services = [
 export const skillGroups = [
   {
     title: 'Frontend',
-    skills: ['React', 'Vite', 'TailwindCSS', 'JavaScript', 'HTML5', 'CSS3'],
+    skills: ['React', 'Next.js', 'Vite', 'TailwindCSS', 'JavaScript', 'HTML5', 'CSS3'],
   },
   {
     title: 'Backend',
@@ -44,19 +45,34 @@ export const skillGroups = [
   },
   {
     title: 'Bases de datos',
-    skills: ['Supabase'],
+    skills: ['Supabase', 'PostgreSQL'],
   },
   {
     title: 'Deploy & DevOps',
-    skills: ['Vercel', 'Railway', 'Docker', 'GitHub Actions', 'Nginx', 'cPanel'],
+    skills: ['Vercel', 'Cloudflare Workers', 'Railway', 'Docker', 'GitHub Actions', 'Nginx', 'cPanel'],
   },
   {
     title: 'Herramientas',
-    skills: ['Git', 'GitHub', 'VS Code', 'Bash', 'PowerShell'],
+    skills: ['Git', 'GitHub', 'Playwright', 'VS Code', 'Bash', 'PowerShell'],
   },
 ]
 
 export const projects = [
+  {
+    title: 'Cachapas Maracay',
+    subtitle: 'E-commerce con pagos Webpay para restaurante con 3 sedes',
+    url: 'https://cachapasmaracay.cl',
+    image: cachapasMaracayShot,
+    description:
+      'Plataforma de pedidos online para un restaurante venezolano con 3 sedes en Chile, que antes recibía todo por WhatsApp: menú digital de 153 productos, pago en línea con Webpay Plus, delivery con precio automático según la ubicación del cliente y pantalla de cocina (KDS) con seguimiento del pedido en vivo. En producción con pagos reales.',
+    stack: ['Next.js', 'Supabase', 'Webpay Plus', 'Cloudflare Workers', 'Leaflet', 'Playwright'],
+    highlights: [
+      'Pagos seguros: el monto siempre se recalcula en el servidor antes de cobrar',
+      'Delivery cotizado por km de ruta real o por 43 zonas geográficas (punto en polígono)',
+      'KDS multi-sede con roles, RLS en Postgres y seguimiento en tiempo real',
+      'Auditoría de seguridad previa al lanzamiento y 350+ tests automatizados',
+    ],
+  },
   {
     title: 'Bazzi Chicken',
     subtitle: 'App de pedidos online para restaurante',
