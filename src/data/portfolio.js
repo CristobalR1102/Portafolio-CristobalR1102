@@ -64,13 +64,15 @@ export const projects = [
     url: 'https://cachapasmaracay.cl',
     image: cachapasMaracayShot,
     description:
-      'Plataforma de pedidos online para un restaurante venezolano con 3 sedes en Chile, que antes recibía todo por WhatsApp: menú digital de 153 productos, pago en línea con Webpay Plus, delivery con precio automático según la ubicación del cliente y pantalla de cocina (KDS) con seguimiento del pedido en vivo. En producción con pagos reales.',
-    stack: ['Next.js', 'Supabase', 'Webpay Plus', 'Cloudflare Workers', 'Leaflet', 'Playwright'],
+      'Plataforma de pedidos online para un restaurante venezolano con 3 sedes en Chile (Santiago Centro, Providencia y Viña del Mar), que antes recibía todo por WhatsApp: menú digital de 153 productos en 17 categorías con buscador, pago 100% online con Webpay Plus, delivery con precio automático según la ubicación del cliente, pantalla de cocina (KDS) y seguimiento del pedido en vivo. En producción con pagos reales y ventas desde el primer día.',
+    stack: ['Next.js', 'Supabase', 'Webpay Plus', 'Cloudflare Workers', 'Leaflet', 'PWA', 'Playwright'],
     highlights: [
-      'Pagos seguros: el monto siempre se recalcula en el servidor antes de cobrar',
-      'Delivery cotizado por km de ruta real o por 43 zonas geográficas (punto en polígono)',
-      'KDS multi-sede con roles, RLS en Postgres y seguimiento en tiempo real',
-      'Auditoría de seguridad previa al lanzamiento y 350+ tests automatizados',
+      'Pagos seguros: el monto se calcula en el servidor y se manejan pagos rechazados, anulados y vencidos',
+      'Delivery cotizado por km de ruta real o por 43 zonas en Viña, con recargo automático en domingos y feriados de Chile',
+      'KDS multi-sede con aviso sonoro y roles en Supabase Auth, más un panel admin con las ventas del día de las 3 sedes',
+      'App instalable (PWA) que envía notificación push por cada pago aprobado',
+      'Revisión de seguridad con 5 vulnerabilidades críticas corregidas y más de 400 tests automatizados (unitarios y E2E)',
+      'SEO con datos estructurados de las 3 sedes, sitemap y dominio verificado en Search Console',
     ],
   },
   {
